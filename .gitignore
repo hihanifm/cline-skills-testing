@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Node / general dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output / generated artifacts
+out/
+dist/
+build/
+coverage/
+
