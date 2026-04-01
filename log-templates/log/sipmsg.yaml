@@ -1,0 +1,9 @@
+id: sipmsg
+description: Filters SIPMSG entries from logs.
+
+templates:
+  - id: sipmsg
+    pattern: "SIPMSG"
+    context_lines: 0
+    description: >
+      Captures log lines containing SIPMSG for SIP signaling investigation.
